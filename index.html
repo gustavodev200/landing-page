@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#intro">Logo</a>
+            </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#top3">Intro</a></li>
+                    <li><a href="#grid">Grid</a></li>
+                    <li><a href="#galery">Galery</a></li>
+                    <li><a href="#grid-two">Grid Tow</a></li>
+                    <li><a href="#pricing">pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id ="intro" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text">
+                <h2>Bem-vindo ao Primeiro Projeto</h2>
+                <p>Projeto feito junto com video aulas de um curso, introdutório ao HTML5 e CSS3, no qual ensina toda base e por fim o projeto final. Meu nome é Gustavo e tenho 20 anos, busco ser um desenvolvedor Full Stack, no qual designa, Front-end, Back-end e Mobile, e futuramente engressar no ramo de Programador, buscar empresas e parcerias a fim de vender meus projetos ou prestar meu serviço.</p>
+            </div>
+            <div class="intro-img">
+                <img src="./assets/img/js.svg" alt="Js">
+            </div>
+        </div>
+    </section>
+
+    <section id="top3" class="white-bg section">
+        <div class="main-content top3">
+            <h2>Top 3 Frases</h2>
+            <p>Adoro pessoas que se acham inteligentes por saberem somar, subtrair, dividir, multiplicar e no final não conseguem achar um denominador comum para seus próprios problemas...</p>
+
+            <p>"Só não consegue o seu objetivo quem acredita que as coisas são fáceis. Todas as coisas são difíceis, todas as coisas têm que ser lutadas. Quando você consegue uma coisa fácil, desconfie. Porque ela não é tão fácil quanto parece."</p>
+
+            <p> “O trabalho vai preencher uma grande parte da sua vida, e a única maneira de ficar completamente satisfeito é fazer o que você acredita ser um bom trabalho. E a única forma de fazer um bom trabalho é amar aquilo que você faz. Se você ainda não descobriu o que é, continue procurando. Não se acomode. Da mesma forma que acontece com as coisas do coração, você vai saber quando encontrar.”
+                
+                "O maior risco é não correr nenhum risco. Em um mundo que está mudando rapidamente, a única estratégia que certamente vai falhar é não correr riscos".</p>
+        </div>
+    </section>
+
+    <section id ="grid" class="grid main-bg section">
+        <div class="main-content grid-content">
+
+            <h2 class="grid-title">My Grid</h2>
+            <p class="descricao">Breve Descrição</p>
+            <div class="grid-center">
+                <article>
+                <h3>Paixão</h3>
+                <p>Pense sempre no cliente. É ele quem irá fazer a sua ideia dar certo ou não. Descubra seu mercado-alvo, sua renda, dados demográficos, necessidades e preferências. Para isso faça uma pesquisa de mercado, converse com as pessoas ao seu redor, vá a eventos empresariais, palestras, leia livros, fale com outros empreendedores – ou seja, saia de casa e veja o que está acontecendo no mundo!
+
+                Com uma boa pesquisa você terá os dados necessários para saber qual valor pode oferecer ao seu cliente. Mais do que um negócio você deve criar uma proposta de venda exclusiva – algo que ninguém mais tenha, só você.
+                </p>
+                </article>
+
+                <article>
+                <h3>Competência</h3>
+                <p>A palavra “competência” está associada à qualidade de quem é capaz de apreciar e resolver determinado assunto ou realizar determinada tarefa. Na prática, a competência diz respeito à aptidão, habilidade e capacidade de resolver problemas. A competência pressupõe uma ação que agrega valor diante de novas situações.
+
+                A competência profissional remete à ideia de capacidade, soma de conhecimentos ou habilidades. Dessa forma, espera-se que o profissional dotado de competências encontre mais facilidade para se colocar no mercado de trabalho.</p>
+                </article>   
+
+                <article>
+                <h3>Constância</h3>
+                <p>Quais são seus hábitos atuais? Beber água, escovar os dentes, lavar as mãos, fazer exercícios, meditar, ler antes de dormir? Por que você introduziu esses hábitos?
+
+                Provavelmente foi para tornar a sua vida melhor, para ter mais tempo, para se sentir melhor, para ser mais saudável.
+                    
+                É exatamente o mesmo com o hábito do aprendizado de outro idioma. Diante de um objetivo, vai conseguir seguir nos estudos sem questionar, sem ser especificamente motivado, sem quaisquer circunstâncias especiais e você será persistente com sua rotina, independentemente das circunstâncias favoráveis.
+                </p>
+                </article>                
+            </div>
+        </div>
+    </section>
+
+    <section id ="galery" class="grid white-bg section">
+        <div class="main-content grid-content">
+
+            <h2 class="grid-title">Gallery</h2>
+            <p class="descricao">Breve Descrição</p>
+            <div class="grid-center">
+
+                <div class="galeria-img">
+                <img src="https://source.unsplash.com/random/360x360?r=1" alt="Imagem Aleatoria">
+                </div>
+                <div class="galeria-img">
+                <img src="https://source.unsplash.com/random/360x360?r=2" alt="Imagem Aleatoria">
+                </div>
+                <div class="galeria-img">
+                <img src="https://source.unsplash.com/random/360x360?r=3" alt="Imagem Aleatoria">
+                </div>
+                <div class="galeria-img">
+                <img src="https://source.unsplash.com/random/360x360?r=4" alt="Imagem Aleatoria">
+                </div>
+                <div class="galeria-img">
+                <img src="https://source.unsplash.com/random/360x360?r=5" alt="Imagem Aleatoria">
+                </div>
+                <div class="galeria-img">
+                <img src="https://source.unsplash.com/random/360x360?r=6" alt="Imagem Aleatoria">
+                </div>        
+            </div>
+        </div>
+    </section>
+
+    <section id ="grid-two" class="grid main-bg section">
+        <div class="main-content grid-content">
+
+            <h2 class="grid-title">Grid two</h2>
+            <p class="descricao">Breve Descrição</p>
+            <div class="grid-center">
+                <article>
+                <h3>Brincar</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nobis minima veritatis tenetur perspiciatis magnam sed, ab molestiae iusto quis accusantium, architecto eius nihil accusamus est laborum ipsam quas quo.</p>
+                </article>
+
+                <article>
+                <h3>Começar</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nobis minima veritatis tenetur perspiciatis magnam sed, ab molestiae iusto quis accusantium, architecto eius nihil accusamus est laborum ipsam quas quo.</p>
+                </article>   
+
+                <article>
+                <h3>Alaska</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nobis minima veritatis tenetur perspiciatis magnam sed, ab molestiae iusto quis accusantium, architecto eius nihil accusamus est laborum ipsam quas quo.</p>
+                </article>                
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3">
+            <h2>pricing</h2>
+            <p>A cidade de Goianésia, localizada no estado de Goiás (GO), foi fundada no ano de 1953. A localidade está em uma altitude de 640m em relação ao nível do mar, e possui uma população estimada em 48.165 habitantes. A área total de Goianésia é de 1.419,0km², e sua densidade demográfica é de 33,94hab/km² (habitantes por km²). O CEP da região de Goianésia-GO é 76380-000.</p>
+
+            <p>
+              Vários outros nomes tomaram parte e honraram o passado de Goianésia, pelo pioneirismo, pela força, pela fé e a determinação para o trabalho, herança que vem sendo passada de a geração. A cidade é hoje expressão de seu passado e de seu presente. E, no futuro, continuará a dar exemplos de grandeza.</p>
+            <div class="resposive-table">
+              <table>
+                  <caption>Princing table</caption>
+
+                  <thead>
+                    <tr>
+                      <th>Title 1</th>
+                      <th>Title 2</th>
+                      <th>Title 3</th>
+                      <th>Title 4</th>
+                      <th>Title 5</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                         <td>Content 1</td> 
+                         <td>Content 2</td> 
+                         <td>Content 3</td> 
+                         <td>Content 4</td> 
+                         <td>Content 5</td> 
+                      </tr>
+                      <tr>
+                        <td>Content 1</td> 
+                        <td>Content 2</td> 
+                        <td>Content 3</td> 
+                        <td>Content 4</td> 
+                        <td>Content 5</td> 
+                      </tr>
+                      <tr>
+                        <td>Content 1</td> 
+                        <td>Content 2</td> 
+                        <td>Content 3</td> 
+                        <td>Content 4</td> 
+                        <td>Content 5</td>  
+                      </tr>
+                      
+                  </tbody>
+
+                  <tfoot>
+                      <tr>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td>Testando</td>
+                      </tr>
+                  </tfoot>
+              </table>
+            </div>
+        </div>
+    </section>
+
+    <section id ="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text">
+                <h2>Formuário de Contato</h2>
+                <p>Preencha os dados corretos e mande para nós, alem de receber informações e opniões você tambem recebe amizades novas.</p>
+            </div>
+            <div class="intro-img">
+                <img src="./assets/img/form.svg" alt="Js">
+            </div>
+            <div class="forms">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Your E-mail">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea placeholder="Your Message" name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Send Menssage</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id ="footer"class="white-bg footer">
+        <p><a rel="nofollow" target="_blank" href="#"> Feito com Carinho por Gustavo Lage</a></p>
+    </footer>
+    
+    <a class="back-to-top" href="#">➤</a>
+
+</body>
+    
+</html>
